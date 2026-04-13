@@ -1,9 +1,53 @@
-switch_scheduler runs all the algos and produces the data.
+# **Network Switch Scheduling – README**
 
+## **How to Run**
+
+### **1. Compile**
+
+```bash
 g++ switch_scheduler.cpp -o switch_scheduler
+```
 
-./switch_scheduler   
+### **2. Run Simulation**
 
-for data visualisation and comparision
+```bash
+./switch_scheduler
+```
 
-python part4_visualization.py  
+### **3. Generate Graphs**
+
+```bash
+python part4_visualization.py
+```
+
+---
+
+## **What It Does**
+
+* Runs 3 algorithms:
+
+  * FIFO
+  * VOQ (Optimal)
+  * VOQ (iSLIP)
+
+* Outputs:
+
+  * Total Service Time
+  * Backlog data
+  * Graphs comparing performance
+
+---
+
+## **Requirements**
+
+* g++
+* Python 3
+* matplotlib, numpy
+
+Install:
+
+```bash
+pip install matplotlib numpy
+```
+
+---
