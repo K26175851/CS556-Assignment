@@ -1,0 +1,7 @@
+g++ switch_scheduler.cpp -o switch_scheduler
+
+./switch_scheduler   
+
+for data visualisation and comparision
+
+python part4_visualization.py  
