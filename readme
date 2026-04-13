@@ -1,3 +1,5 @@
+switch_scheduler runs all the algos and produces the data.
+
 g++ switch_scheduler.cpp -o switch_scheduler
 
 ./switch_scheduler   
